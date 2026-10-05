@@ -507,7 +507,7 @@ export const mockCourses: Course[] = [
       totalHours: 'Approx. 10 hours',
       price: '$97.00',
       discount: '10% Discount Available',
-      externalEnrolmentLink: 'https://optimumtrainingacademy.rto.net.au/Form/Index?formType=1&directLink=true&id=optimumtrainingacademy&del=61509&courseCode=HLTAID011',
+      externalEnrolmentLink: 'https://optimumtrainingacademy.rto.net.au/Form/Index?formType=1&directLink=true&id=optimumtrainingacademy&del=68919&courseCode=HLTAID011',
       brochureLink: BROCHURE_FIRST_AID,
       careerOutcomes: [],
       entryRequirements: [
