@@ -103,7 +103,7 @@ export default function RootLayout({
         <TrackingProvider>
           {children}
         </TrackingProvider>
-      </body>
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js-ap1.hs-scripts.com/443552727.js"></script>
     </html>
   );
 }
