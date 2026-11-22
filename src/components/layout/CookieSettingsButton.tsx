@@ -1,8 +1,16 @@
 'use client';
 
+type HubSpotPrivacyQueue = unknown[][];
+
+declare global {
+  interface Window {
+    _hsp?: HubSpotPrivacyQueue;
+  }
+}
+
 export default function CookieSettingsButton() {
   const handleClick = () => {
-    const _hsp = (window as any)._hsp = (window as any)._hsp || [];
+    const _hsp = (window._hsp = window._hsp || []);
     _hsp.push(['showBanner']);
   };
 
