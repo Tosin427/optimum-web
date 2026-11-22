@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Mail, MapPin, Phone, Globe, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 import { getSiteSettings } from '@/lib/api/cms';
+import CookieSettingsButton from './CookieSettingsButton';
 
 const footerNavigation = {
   courses: [
@@ -109,6 +110,9 @@ export async function Footer() {
                   )}
                 </li>
               ))}
+              <li>
+              <CookieSettingsButton />
+              </li>
             </ul>
           </div>
           <div>
